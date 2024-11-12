@@ -456,7 +456,7 @@ footer{
 	.concept_image{
 	    max-width: 40%;
 		max-height: 40%;
-    	margin: 10px 0 10px 20px;
+    	margin: 10px 0 10px 13px;
 	}
 	#title1{
 	    max-width: 30%;
@@ -497,7 +497,7 @@ footer{
 	.concept_image3{
 	    max-width: 40%;
 		max-height: 40%;
-    	margin: 10px 0 10px 20px;
+    	margin: 10px 0 10px 13px;
 	}
 	#title3{
 	    max-width: 30%;
@@ -516,7 +516,7 @@ footer{
 	}
 	.more{
     	max-width: 40%;
-    	margin: -5px auto 0
+    	margin: 15px auto 0
 	}
 	.more img{
     	max-width: 100%;
@@ -553,7 +553,7 @@ footer{
 	
 	/* メニュー */
 	#menu_wrapper{
-    	background-image: url(images/menu_line.png);
+    	background-image: url(images/menu_line_sp.png);
 	    background-repeat: no-repeat;
     	background-position: 50% 0%;
 	    max-width: 100%;
@@ -567,35 +567,38 @@ footer{
     	font-size: 12px;
 	    padding: 10px 0 10px;
 	}
-.arrow-text{
-    margin: 250px 0 100px;
-}
-.arrow-text .slick-arrow_prev,
-.arrow-text .slick-arrow_next {
-    position: absolute;
-    top: 65%;
-    transform: translateY(-50%);
-    font-size: 1.5rem;
-    cursor: pointer;
-    z-index: 10;
-}
-.arrow-text .slick-arrow_prev {
-    margin-left: 350px;
+	.arrow-text img{
+		width: 100%;
+	}
+	.arrow-text{
+    	margin: 5px 0 40px;
+	}
+	.arrow-text .slick-arrow_prev,
+	.arrow-text .slick-arrow_next {
+    	position: absolute;
+	    top: 110%;
+    	transform: translateY(-50%);
+	    font-size: 1.5rem;
+    	cursor: pointer;
+	    z-index: 10;
+		width: 7%;
+	}
+	.arrow-text .slick-arrow_prev {
+    	margin-left: 10px;
         opacity: 0.4;
-}
-.arrow-text .slick-arrow_prev:hover{
-    background:url(images/more_left_click.png);
+	}
+	.arrow-text .slick-arrow_prev:hover{
+    	background:url(images/more_left_click.png);
         opacity: 0.8;
-}
-
-.arrow-text .slick-arrow_next {
-    right: 350px;
+	}
+	.arrow-text .slick-arrow_next {
+    	right: 20px;
         opacity: 0.4;
-}
-.arrow-text .slick-arrow_next:hover{
-    background:url(images/more_right_click.png);
-    opacity: 0.8;
-}
+	}
+	.arrow-text .slick-arrow_next:hover{
+    	background:url(images/more_right_click.png);
+	    opacity: 0.8;
+	}
 	
 	/* マップ */
 	#map_wrapper{
