@@ -20,6 +20,12 @@
             <div class="logo">
                 <h1><a href="index.html"><img src="images/logo.png" alt="ネオンが映える韓国居酒屋テリポチャ"></a></h1>
             </div>
+			<div>
+				<ul class="side_menu" id="cv1">
+					<li class="menu01"><img src="images/cv1_1.png" alt="電話でご予約"></li>
+					<li class="menu01" id="cv1_right"><img src="images/cv1_2.png" alt="WEBでご予約"></li>
+				</ul>
+			</div>
         <div class="hamburger" id="js-hamburger">
             <span class="hamburger_border hamburger_border_top"></span>
             <span class="hamburger_border hamburger_border_center"></span>
@@ -27,12 +33,6 @@
         </div>
         <div class="black_bg" id="js-black-bg"></div>
     </header>
-	<div>
-		<ul class="side_menu" id="cv1">
-            <li class="menu01"><img src="images/cv1_1.png" alt="電話でご予約"></li>
-            <li class="menu01" id="cv1_right"><img src="images/cv1_2.png" alt="WEBでご予約"></li>
-		</ul>
-	</div>
     <main>
         <div id="mv"><img src="images/mv.jpg" alt="テリポチャで「韓国気分」日常を忘れて乾杯！"></div>
         <div id="concept_wrapper">
@@ -173,6 +173,15 @@
     slidesToShow: 5,
     prevArrow: '<img src="images/more_left_click.png" class="slick-arrow_prev">',
     nextArrow: '<img src="images/more_right_click.png" class="slick-arrow_next">',
+			responsive: [
+				{
+					breakpoint: 430,
+					settings: {
+						slidesToShow: 3, // 画面幅750px以下でスライド3枚表示
+						
+					}
+				}
+			]
         });
     });
 </script>
