@@ -590,6 +590,7 @@ footer{
 	.arrow-text .slick-arrow_prev:hover{
     	background:url(images/more_left_click.png);
         opacity: 0.8;
+		width: 7%;
 	}
 	.arrow-text .slick-arrow_next {
     	right: 20px;
@@ -598,6 +599,7 @@ footer{
 	.arrow-text .slick-arrow_next:hover{
     	background:url(images/more_right_click.png);
 	    opacity: 0.8;
+		width: 7%;
 	}
 	
 	/* マップ */
